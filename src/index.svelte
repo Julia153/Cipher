@@ -14,12 +14,13 @@
     output = ciphertext
     }
 </script>
+<section class="section content">
+    <h1>Cipher</h1>
 
-<h1>Cipher</h1>
-
-<label>
-<input type="text" bind:value={input}>
-</label>
-<button on:click={encrypt }>Encrypt</button>
-<h2>Result</h2>
-<p>{output}</p>
+    <label>
+    <input type="text" bind:value={input}>
+    </label>
+    <button class="button" on:click={encrypt }>Encrypt</button>
+    <h2>Result</h2>
+    <p>{output}</p>
+</section>
